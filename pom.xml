@@ -464,6 +464,7 @@
     <version.frontend-maven-plugin>1.8.0</version.frontend-maven-plugin>
     
     <version.org.awaitility>3.0.0</version.org.awaitility>
+    <version.io.github.bonigarcia>3.8.1</version.io.github.bonigarcia>
   </properties>
 
   <repositories>
@@ -5086,6 +5087,14 @@
         <groupId>org.awaitility</groupId>
         <artifactId>awaitility</artifactId>
         <version>${version.org.awaitility}</version>
+        <scope>test</scope>
+      </dependency>
+
+
+      <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>${version.io.github.bonigarcia}</version>
         <scope>test</scope>
       </dependency>
     </dependencies>
