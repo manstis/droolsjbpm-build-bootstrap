@@ -321,7 +321,7 @@
     <version.org.jboss.byteman>3.0.1</version.org.jboss.byteman>
     <version.org.roboguice>3.0.1</version.org.roboguice>
     <version.org.robolectric>3.1.2</version.org.robolectric>
-    <version.org.xmlunit>2.3.0</version.org.xmlunit>
+    <version.org.xmlunit>2.6.3</version.org.xmlunit>
     <version.org.skyscreamer.jsonassert>1.2.3</version.org.skyscreamer.jsonassert>
     <!-- WildFly version used together with  the GWT's Super Dev Mode -->
     <version.org.wildfly.gwt.sdm>14.0.1.Final</version.org.wildfly.gwt.sdm>
@@ -4718,6 +4718,12 @@
       <dependency>
         <groupId>org.xmlunit</groupId>
         <artifactId>xmlunit-matchers</artifactId>
+        <version>${version.org.xmlunit}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.xmlunit</groupId>
+        <artifactId>xmlunit-assertj</artifactId>
         <version>${version.org.xmlunit}</version>
         <scope>test</scope>
       </dependency>
